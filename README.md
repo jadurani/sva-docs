@@ -1,7 +1,7 @@
 SVA Breeze Manual
 ===
 
-# Getting Started
+# Introduction
 
 Welcome to SVA Breeze! This manual will guide you through the various features and functionalities of the platform to help streamline your temple management tasks at Sacred Vedic Arts, located in Miami, Florida.
 
@@ -22,20 +22,26 @@ This manual aims to provide comprehensive instructions and insights into maximiz
 
 SVA Breeze offers several main modules to facilitate efficient temple management:
 
+1. **Dashboard**: Generate insightful reports on attendance, giving trends, and other temple-related metrics.
+
 1. **People**: Manage congregants' information, communication preferences, and involvement in various temple activities.
 
-2. **Events**: Plan and organize temple events, track attendance, and manage event-related tasks.
+1. **Giving**: Track and manage contributions, generate giving reports, and facilitate online giving options.
 
-3. **Donations**: Track and manage contributions, generate giving reports, and facilitate online giving options.
+1. **Tags**: Categorize individuals based on characteristics, interests, or involvement for targeted communication and organization.
 
-4. **Tags**: Categorize individuals based on characteristics, interests, or involvement for targeted communication and organization.
+1. **Events**: Plan and organize temple events, track attendance, and manage event-related tasks.
 
-5. **Forms**: Create custom forms for gathering information, registrations, and feedback from congregants.
+1. **Follow Ups**: Manage and track tasks assigned to staff or volunteers in relation to specific individuals in the temple database.
 
-6. **Reports**: Generate insightful reports on attendance, giving trends, and other temple-related metrics.
+1. **Forms**: Create custom forms for gathering information, registrations, and feedback from congregants.
 
 
-https://mermaid.js.org/syntax/sequenceDiagram.html
+## Signing In
+
+- **Sign In Page:** [https://sacredvedicarts.breezechms.com/login](https://sacredvedicarts.breezechms.com/login)
+
+![image](/images/SVA-login-page.png)
 
 ## [SMS] Sending a message to an individual
 
@@ -46,13 +52,13 @@ sequenceDiagram
   autonumber
   actor Soul_Scout as Soul Scout
   participant Breeze as Breeze <br>(People Module)
-  actor Soul
+  actor Person
 
-  Soul_Scout->>Breeze: Searches for Soul's name
-  Breeze->>Breeze: Retrieves Soul's contact information
+  Soul_Scout->>Breeze: Search for a Person's name
+  Breeze->>Breeze: Retrieves Person's contact information
   Soul_Scout-->>Breeze: Composes text message
-  Breeze-->>Soul: Delivers text message
-  Breeze-->>Soul_Scout: Notifies Soul Scout of message delivery
+  Breeze-->>Person: Delivers text message
+  Breeze-->>Soul_Scout: Notifies Person Scout of message delivery
 ```
 
 In this sequence:
