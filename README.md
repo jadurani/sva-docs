@@ -1,22 +1,52 @@
-SVA Breeze Manual
+Sacred Vedic Arts Breeze Manual
 ===
+
+![image](/images/SVA-sriradharasabihari.jpg)
+
+---
+
+**Content Outline**
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Introduction](#introduction)
+  - [Goals for using the Platform](#goals-for-using-the-platform)
+- [Breeze Main Modules](#breeze-main-modules)
+- [How To](#how-to)
+  - [Sign In](#sign-in)
+  - [[SMS] Sending a message to an individual](#sms-sending-a-message-to-an-individual)
+  - [[SMS] Text A Group of People Using Breeze](#sms-text-a-group-of-people-using-breeze)
+  - [[Email] Send an email to an individual](#email-send-an-email-to-an-individual)
+  - [[Email] Send an email to a group](#email-send-an-email-to-a-group)
+  - [Create an email template](#create-an-email-template)
+  - [Update an email template](#update-an-email-template)
+  - [Some notes](#some-notes)
+
+<!-- /code_chunk_output -->
+
+---
 
 # Introduction
 
-Welcome to SVA Breeze! This manual will guide you through the various features and functionalities of the platform to help streamline your temple management tasks at Sacred Vedic Arts, located in Miami, Florida.
+Haribol, Soul Scouts! This manual will guide you through the various features and functionalities of the platform to help streamline your temple management tasks at Sacred Vedic Arts, located in Miami, Florida.
 
 - **Location**: [137 NE 47th St, Miami, FL 33137](https://maps.app.goo.gl/Yyr7cGBa51q1ivxj9)
 - **Website**: [Sacred Vedic Arts](https://sacredvedicarts.org/)
 - **Contact Number**: +1 (347) 727-8692
 
-If you encounter any issues during setup or usage, please reach out to Haridas Brahmachari at [email@example.com](mailto:email@example.com) for assistance.
+If you encounter any issues during setup or usage, please reach out to Haridas Brahmachari at [haridas.pike@gmail.com](mailto:haridas.pike@gmail.com) for assistance.
 
-This manual aims to provide comprehensive instructions and insights into maximizing the capabilities of SVA Breeze for your temple management needs at Sacred Vedic Arts. If you have any questions or require further assistance, don't hesitate to contact Haridas Brahmachari.
+This manual aims to provide instructions and insights into maximizing the capabilities of SVA Breeze for your temple management needs at Sacred Vedic Arts.
 
-#### Why are we using Breeze? What problems are we trying to solve?
+## Goals for using the Platform
 
 - **Problem**: We get a lot of contact information from our manual sign-ups on pen and paper but we never get to reach out to them and do follow-ups.
-- **Solution**: Consolidate the contact inforrmation into a database, digitalize our data, automate reaching out to our contacts
+- **Solution**:
+  - Consolidate the contact inforrmation into a database
+  - Digitalize our data
+  - Reach out to our contacts in an easier and more streamlined manner (i.e. sending emails and text messages through the Breeze platform)
 
 # Breeze Main Modules
 
@@ -36,12 +66,15 @@ SVA Breeze offers several main modules to facilitate efficient temple management
 
 1. **Forms**: Create custom forms for gathering information, registrations, and feedback from congregants.
 
+# How To
 
-## Signing In
+## Sign In
 
-- **Sign In Page:** [https://sacredvedicarts.breezechms.com/login](https://sacredvedicarts.breezechms.com/login)
+1. Go to the  **Sign In Page:** [https://sacredvedicarts.breezechms.com/login](https://sacredvedicarts.breezechms.com/login)
 
 ![image](/images/SVA-login-page.png)
+
+2. Input the username and password given to you by your Breeze admin. If you haven't received your
 
 ## [SMS] Sending a message to an individual
 
